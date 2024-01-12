@@ -1,0 +1,53 @@
+.list-group-item {
+    display: flex;
+    align-items: center;
+   justify-content: start;
+
+}
+
+.list-group-item img {
+    width: 4%; 
+    height: 5%;
+    margin-right: 2%;
+}
+
+.h1{
+    margin-bottom: 2%;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item:hover img {
+    transform: scale(1.1);  /* Увеличивает изображение при наведении */
+}
+
+
+.primary {
+    background-color: #aa9495; 
+}
+
+.primary:hover {
+    background-color: #aa9495;
+}
+
+.link {
+    color: #aa9495;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #aa9495;
+}
+
+#routes {
+    background-color: #ffffff;
+}
+
+
+.hide {
+    display: none;
+}
+
+ 
